@@ -1,0 +1,13 @@
+Fri, Apr 18, 2025 12:22:14 AM: 
+ hashmap.c | 25 ++++++++++++++++++++++++-
+ 1 file changed, 24 insertions(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:4:0:
+hashmap.c: In function 'insertMap':
+hashmap.c:58:22: error: 'Pair {aka struct Pair}' has no member named 'next'
+             aux = aux->next;
+                      ^~
+hashmap.c:60:17: error: 'Pair {aka struct Pair}' has no member named 'next'
+         new_pair->next = map->buckets[hash_value];
+                 ^~
+eeef3b7
