@@ -53,3 +53,9 @@ hashmap.c:145:8: note: previous definition of 'nextMap' was here
  Pair * nextMap(HashMap * map) {
         ^~~~~~~
 0483887
+Sat, Apr 19, 2025  9:13:57 PM: 
+ hashmap.c | 4 ----
+ 1 file changed, 4 deletions(-)
+ tests:  16|1
+total_score: 60/70
+9f7e587
