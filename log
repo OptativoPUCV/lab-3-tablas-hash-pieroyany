@@ -41,3 +41,15 @@ Sat, Apr 19, 2025  8:37:06 PM:
  tests:  11|2
 total_score: 50/70
 7bbf460
+Sat, Apr 19, 2025  9:12:10 PM: 
+ hashmap.c | 21 +++++++++++++++++++++
+ 1 file changed, 21 insertions(+)
+Compilation failed
+In file included from test.c:4:0:
+hashmap.c:158:8: error: redefinition of 'nextMap'
+ Pair * nextMap(HashMap * map) {
+        ^~~~~~~
+hashmap.c:145:8: note: previous definition of 'nextMap' was here
+ Pair * nextMap(HashMap * map) {
+        ^~~~~~~
+0483887
